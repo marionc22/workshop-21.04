@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+}
+.card {
+    width:100%;
+    min-height: 480px;
+    box-shadow: 2px 2px 2px 2px #80808091;
+
+}
+
+
+/* @media screen and (max-width: 600px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+
+    }
+    
+} */
